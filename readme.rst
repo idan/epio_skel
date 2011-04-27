@@ -13,7 +13,7 @@ This skeleton project is my project base for working with ep.io. It provides:
 * A sensible ``epio.ini``.
 * A sensible ``.gitignore``.
 * ``PYTHONPATH`` settings which conform to epio's suggested best-practices_:
-  theproject dir is on ``PYTHONPATH``, so you import things from ``app.foo``,
+  the project dir is on ``PYTHONPATH``, so you import things from ``app.foo``,
   not ``project.app.foo``.
 
 .. _django-redis-cache: https://github.com/sebleier/django-redis-cache
