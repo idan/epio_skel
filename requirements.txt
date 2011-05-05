@@ -1,4 +1,4 @@
 Django>=1.3,<1.4
 epio
 Unipath
--e git+https://github.com/sebleier/django-redis-cache.git#egg=django_redis_cache
+django_redis_cache
