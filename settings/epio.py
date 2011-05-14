@@ -21,6 +21,7 @@ CACHES = {
         'OPTIONS': {
             'PASSWORD': config['redis']['password'],
         },
+        'VERSION': config['core']['version'],
     },
 }
 
