@@ -1,4 +1,5 @@
 from unipath import FSPath as Path
+from bundle_config import config
 
 PROJECT_DIR = Path(__file__).absolute().ancestor(2)
 
@@ -17,7 +18,7 @@ SITE_ID = 1
 USE_I18N = True
 USE_L10N = True
 
-MEDIA_ROOT = PROJECT_DIR.parent.child('data')
+MEDIA_ROOT = config['core']['data_directory']
 MEDIA_URL = '/media/'
 
 STATIC_ROOT = PROJECT_DIR.child('static_root')
@@ -88,3 +89,4 @@ LOGGING = {
         },
     }
 }
+
