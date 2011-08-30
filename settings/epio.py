@@ -24,4 +24,5 @@ CACHES = {
         'VERSION': config['core']['version'],
     },
 }
+MEDIA_ROOT = config['core']['data_directory']
 
