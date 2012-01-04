@@ -4,3 +4,4 @@
 *.un~
 *.db
 static_root/
+*.sublime-project
